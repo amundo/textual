@@ -1,3 +1,14 @@
+/*
+
+  textual.js - a standalone library for various string-processing utilities
+
+  © 2010 Patrick Hall
+  pathall@gmail.com
+
+  MIT License
+
+*/
+
 function tokenize(text){
   return text;
 }
