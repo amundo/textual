@@ -1,0 +1,7 @@
+textual
+=======
+
+A collection of text-processing utilities in Javascript.
+
+I am constantly rewriting functions like "frequency" and "tokenize" and so on in Javascript, 
+so I decided to create a single reusable library to hold them.

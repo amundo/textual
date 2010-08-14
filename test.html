@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test textual.js</title>
+  <script src="jquery.js"></script>
+  <script src="textual.js"></script>
+  <meta charset="UTF-8">
+<script>
+
+$(function(){
+
+   var counts = frequency('a b c a b a'.split(' ') );
+   $.each(counts, function(k,v){
+      $('body').append("<p>" + k + ' ' + v + '</p>')
+   })
+
+})
+</script>
+</head>
+<body>
+
+</body>
+
+</html>
+
