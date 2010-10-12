@@ -10,7 +10,7 @@
   MIT License
 
 */
-var text = {
+var textual = {
 
     trim : function(text){
       var rtrim = /^(\s|\u00A0)+|(\s|\u00A0)+$/g;
