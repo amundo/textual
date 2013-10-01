@@ -9,7 +9,7 @@
 
 $(function(){
 
-   var counts = frequency('a b c a b a'.split(' ') );
+   var counts = textual.frequency('a b c a b a'.split(' ') );
    $.each(counts, function(k,v){
       $('body').append("<p>" + k + ' ' + v + '</p>')
    })

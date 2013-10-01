@@ -26,6 +26,9 @@ var textual = {
     },
 
     letters : function(text){
+      /* 
+         this should take a function 
+      */
       return text.split('');
     },
 
@@ -33,11 +36,10 @@ var textual = {
       var count = {};
       for (var i=0; i<sequence.length; i++){
         var elem = sequence[i];
-        if ( elem in count ) {
-          count[elem] += 1;
-        } else {
-          count[elem] = 1;
+        if (!( elem in count )) {
+          count[elem] = 0;
         }
+        count[elem] += 1;
       }
       return count;
     },
